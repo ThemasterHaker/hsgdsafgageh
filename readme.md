@@ -1,16 +1,18 @@
 # A New Webpage
 This project is an in-progress prototype for an online forum and basic chatroom styled with late-90s themed css.
 
-## Installation
-First of all, please run        `npm install` from the project root.
+## Prerequisites
 
-To compile the Typescript, use  `npm run build`
+`npm`
 
-To run the server, use          `npm run server`
+## Building
 
-To both build and run, use      `npm run all`.
+`npm install`
 
-To view the webpage locally, visit `localhost:3000` from your browser of choice!
-Please note: the port may vary depending on which port is set in client.ts and server.ts.
+`npm run build`
 
-Thank you very much for reading :)
+## Running
+
+`npm run server`
+
+To view the webpage locally, visit `localhost:3000` from your browser of choice. The port can be changed in client.ts / server.ts
